@@ -248,12 +248,12 @@
 //#define __WIN_G__    &ht_custom_mod_tap LWIN G
 //#define __WIN_M__    &ht_custom_mod_tap LWIN M
 
-#define __ALT_R__    &ht_custom_hrm LALT R
-#define __CTL_S__    &ht_custom_hrm LCTRL S
-#define __WIN_T__    &ht_custom_hrm LWIN T
-#define __WIN_N__    &ht_custom_hrm LWIN N
-#define __CTL_E__    &ht_custom_hrm LCTRL E
-#define __ALT_I__    &ht_custom_hrm LALT I
+#define __ALT_S__    &ht_custom_hrm LALT S
+#define __CTL_D__    &ht_custom_hrm LCTRL D
+#define __WIN_F__    &ht_custom_hrm LWIN F
+#define __WIN_J__    &ht_custom_hrm LWIN J
+#define __CTL_K__    &ht_custom_hrm LCTRL K
+#define __ALT_L__    &ht_custom_hrm LALT L
 
 
 
