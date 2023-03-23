@@ -73,7 +73,7 @@
 //                                          ╚═════════╧═════════╧═════════╝   ╚═════════╧═════════╧═════════╝
               default_layer { label = "Denilson"; bindings = <
      ___TAB___ ____Q____ ____W____ ____E____ ____R____ ____T____                         ____Y____ ____U____ ____I____ ____O____ ____P____ _QUSTCLM_
-     _CAPSLCK_ ____A____ __ALT_S__ __CTL_D__ __WIN_F__ ____G____                         ____H____ __WIN_J__ __CTL_K__ __ALT_L__  KC_ENE   _QUOTACC_
+     _CAPSLCK_ ____A____ __ALT_S__ __CTL_D__ __WIN_F__ ____G____                         ____H____ __WIN_J__ __CTL_K__ __ALT_L__ ____P____ _QUOTACC_
      __LCTRL__ ____Z____ ____X____ ____C____ ____V____ ____B____                         ____N____ ____M____ _COMLESS_ _DOT_GRT_ MINUNEQAR ___ESC___
                                              _FNWRDLK_ _OSSHIFT_ _NAV_REP_     _NUM_SPC_ XTRABKSPC __ENTER__
                         >;};
