@@ -78,7 +78,7 @@
 
 
 
-#define ___ASTRK_    &kp MULTIPLY            //DJ's testing *
+#define ___ASTRK_    &kp kp_MULTIPLY        //DJ's testing *
 #define ____AT___    &kp AT                 //DJ's testing @
 #define KC_PERCENT   LS(NUMBER_5)            // %
 #define _PERCENT_    &kp KC_PERCENT          // %
