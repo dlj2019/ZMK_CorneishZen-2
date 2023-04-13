@@ -137,7 +137,7 @@
 //                                          ╚═════════╧═════════╧═════════╝   ╚═════════╧═════════╧═════════╝
                 navigation_layer { label = "NAV"; bindings = <
      _________ _ZMOUTCL_ CLPHSTCUT _CPYSLAL_ _PASTEF2_ _________                         _________ ___INI___ __PGDN___ __PGUP___ ___END___ __INSRT__
-     __REDO___ __UNDO___ __MOUSE__ __LSHFT__ __LCTRL__ _SRCHENT_                         _________ __LEFT___ __DOWN___ ___UP____ __RIGHT__ _________
+     __REDO___ __UNDO___ __MOUSE__ __LSHFT__ __LCTRL__ _SRCHENT_                         __RIGHT__ __DOWN___ ___UP____ __LEFT___ _________ __LEFT___ 
      __RESET__ _________ _________ __LWIN___ _ALT_TAB_ _ESCMENU_                         _________ _________ _________ _________ _________ _________
                                              __BOOTL__ X_______X X_______X     ___SPC___ _BKSPCDL_ __ENTER__
                         >;};
