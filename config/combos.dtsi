@@ -41,29 +41,29 @@ compatible = "zmk,combos";
 */
 
 
-COMBO(ESC_0012,                   &kp ESC, 0 12, COLEMAK ACCENTS GAMING)
-COMBO(HT_Delete_Backspace_1224,   &ht_custom_tap_tap DELETE BACKSPACE, 12 24, COLEMAK ACCENTS)          //  |
-COMBO(Space_2425,                 &kp SPACE, 24 25, COLEMAK ACCENTS)          //  SPACE
-COMBO(Pipe_0113,                  &kp KC_PIPE, 1 13, COLEMAK ACCENTS)          //  |
-COMBO(Arr_0214,                   &kp KC_ARR, 2 14, COLEMAK ACCENTS)          //  @
-COMBO(Hash_0315,                  &kp KC_HASH, 3 15, COLEMAK ACCENTS)          //  #
-COMBO(DollarEuro_0416,            &ht_custom_tap_tap KC_EUR KC_DOLLAR, 4 16, COLEMAK ACCENTS)          //  $€
-COMBO(Percen_0517,                &kp KC_PERCENT, 5 17, COLEMAK ACCENTS)          // %
-COMBO(Amp_0618,                   &kp KC_AMP, 6 18, COLEMAK ACCENTS)          //  &
-COMBO(LeftParBrack_0719,          &ht_lcbracket_leftparleftbrack KC_LCBR 0, 7 19, COLEMAK ACCENTS)          //  ([{, ( → normal, [ → shifted, { → hold
-COMBO(RightParBrack_0820,         &ht_lcbracket_rightparrightbrack KC_RCBR 0, 8 20, COLEMAK ACCENTS)        //  )]}, ) → normal, ] → shifted, } → hold
-COMBO(GamingLayer_091011,         &to GAMING, 9 10 11, COLEMAK ACCENTS)                                     // GAMING
-//COMBO(Caps_2836,                  &kp CAPSLOCK, 28 36, COLEMAK ACCENTS)                                       // CAPSLOCK
-//COMBO(CapsWord_2937,              &caps_word, 29 37, COLEMAK ACCENTS)                                       // CAPSWORD
-COMBO(ToggleNPADLeft_2938,        &tog LNPAD, 29 38, COLEMAK ACCENTS LNPAD)                                            //  --> toggle NPAD
-COMBO(ToggleNPADRight_3039,       &tog RNPAD, 30 39, COLEMAK ACCENTS RNPAD)                                            //  -->  toggle NPAD
-//COMBO(ActivateFUNC_3738,          &mo FUNC, 37 38, COLEMAK ACCENTS)                                             // FUNC+RPT -->  mo FUNC
-COMBO(TAB_1628,                   &kp TAB, 16 28, COLEMAK ACCENTS NAV NUM)                                      // TAB
-//0COMBO(ENTER_1931,                 &kp ENTER, 19 31, COLEMAK ACCENTS NAV NUM)                                    // ENTie
+COMBO(ESC_0012,                   &kp ESC, 0 12, QWERTY ACCENTS GAMING)
+COMBO(HT_Delete_Backspace_1224,   &ht_custom_tap_tap DELETE BACKSPACE, 12 24, QWERTY ACCENTS)          //  |
+COMBO(Space_2425,                 &kp SPACE, 24 25, QWERTY ACCENTS)          //  SPACE
+COMBO(Pipe_0113,                  &kp KC_PIPE, 1 13, QWERTY ACCENTS)          //  |
+COMBO(Arr_0214,                   &kp KC_ARR, 2 14, QWERTY ACCENTS)          //  @
+COMBO(Hash_0315,                  &kp KC_HASH, 3 15, QWERTY ACCENTS)          //  #
+COMBO(DollarEuro_0416,            &ht_custom_tap_tap KC_EUR KC_DOLLAR, 4 16, QWERTY ACCENTS)          //  $€
+COMBO(Percen_0517,                &kp KC_PERCENT, 5 17, QWERTY ACCENTS)          // %
+COMBO(Amp_0618,                   &kp KC_AMP, 6 18, QWERTY ACCENTS)          //  &
+COMBO(LeftParBrack_0719,          &ht_lcbracket_leftparleftbrack KC_LCBR 0, 7 19, QWERTY ACCENTS)          //  ([{, ( → normal, [ → shifted, { → hold
+COMBO(RightParBrack_0820,         &ht_lcbracket_rightparrightbrack KC_RCBR 0, 8 20, QWERTY ACCENTS)        //  )]}, ) → normal, ] → shifted, } → hold
+COMBO(GamingLayer_091011,         &to GAMING, 9 10 11, QWERTY ACCENTS)                                     // GAMING
+//COMBO(Caps_2836,                  &kp CAPSLOCK, 28 36, QWERTY ACCENTS)                                       // CAPSLOCK
+//COMBO(CapsWord_2937,              &caps_word, 29 37, QWERTY ACCENTS)                                       // CAPSWORD
+COMBO(ToggleNPADLeft_2938,        &tog LNPAD, 29 38, QWERTY ACCENTS LNPAD)                                            //  --> toggle NPAD
+COMBO(ToggleNPADRight_3039,       &tog RNPAD, 30 39, QWERTY ACCENTS RNPAD)                                            //  -->  toggle NPAD
+//COMBO(ActivateFUNC_3738,          &mo FUNC, 37 38, QWERTY ACCENTS)                                             // FUNC+RPT -->  mo FUNC
+COMBO(TAB_1628,                   &kp TAB, 16 28, QWERTY ACCENTS NAV NUM)                                      // TAB
+//0COMBO(ENTER_1931,                 &kp ENTER, 19 31, QWERTY ACCENTS NAV NUM)                                    // ENTie
 
-COMBO(ACCENTS_2234,               &tog ACCENTS, 22 34, COLEMAK ACCENTS)                                         // ACCENTS
-//COMBO(LessLessEqual_2133,         &ht_less_lessequal 0 KC_LESS, 21 33, COLEMAK)                 
-//COMBO(GreaterGreaterEqual_2234,   &ht_greater_greaterequal 0 KC_GREAT, 22 34, COLEMAK)
+COMBO(ACCENTS_2234,               &tog ACCENTS, 22 34, QWERTY ACCENTS)                                         // ACCENTS
+//COMBO(LessLessEqual_2133,         &ht_less_lessequal 0 KC_LESS, 21 33, QWERTY)                 
+//COMBO(GreaterGreaterEqual_2234,   &ht_greater_greaterequal 0 KC_GREAT, 22 34, QWERTY)
 
 
 
@@ -77,7 +77,7 @@ COMBO(ACCENTS_2234,               &tog ACCENTS, 22 34, COLEMAK ACCENTS)         
                   ╰────────────╯ ╰────────────╯
 */
 // LAYER gaming
-COMBO(Activate_Colemak_Layer, &to COLEMAK, 9 10 11, GAMING)
+COMBO(Activate_Colemak_Layer, &to QWERTY, 9 10 11, GAMING)
 
 COMBO(Number_1, &kp N1,    1 13, GAMING)
 COMBO(Number_2, &kp N2,    2 14, GAMING)

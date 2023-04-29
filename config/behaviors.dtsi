@@ -1,7 +1,7 @@
 #include "keycodes.h"
 
 
-// LAYER COLEMAK ************************************************************************************************************************
+// LAYER QWERTY ************************************************************************************************************************
 mm_quote_accent: mm_quote_accent {        // ' `
     compatible = "zmk,behavior-mod-morph"; label = "MM_QUOTE_ACCENT";
     #binding-cells = <0>; bindings = <&kp KC_QUOT>, <&macro_accent>;
@@ -180,7 +180,7 @@ ht_greater_greaterequal: ht_greater_greaterequal {                              
     #binding-cells = <2>; tapping-term-ms = <300>; quick-tap-ms = <300>; flavor = "tap-preferred";
     bindings = <&mm_greater_greaterequal>, <&kp>;
 }; 
-// END LAYER COLEMAK ********************************************************************************************************************
+// END LAYER QWERTY ********************************************************************************************************************
 
 
 // LAYER ACCENTS ************************************************************************************************************************
