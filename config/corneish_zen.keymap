@@ -84,7 +84,8 @@
 
 / {
   chosen {
-    zmk,matrix_transform = &five_column_transform;
+    zmk,matrix_transform = &default_transform;
+    //zmk,matrix_transform = &five_column_transform;
   };
 };
 
@@ -145,7 +146,7 @@
                 mouse_layer {
                         label = "MOUSE";
                         bindings = <
-   &none      &none      &none       &none       &none      &mwh SCROLL_DOWN &mkp LCLK &mmv MOVE_UP &mkp RCLK &kp LC(LG(Q))
+   &none      &none      &none       &none       &none      &mwh SCROLL_DOWN &mkp LCLK &mmv MOVE_UP &mkp RCLK &none
    &kp LGUI   &kp LALT   &kp LCTRL   &kp LSHFT   &none      &mwh SCROLL_UP &mmv MOVE_LEFT &mmv MOVE_DOWN &mmv MOVE_RIGHT &none
    &none      &none      &none       &none       &none      &none  &none        &none        &none      &none
               &trans     &trans      &trans                        &trans       &trans       &trans
